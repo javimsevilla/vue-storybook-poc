@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders snapshot 1`] = `
+<div
+  class="info__panel info__panel--info"
+>
+  <i
+    class="icon-info"
+  />
+  <div
+    class="info__panel__text"
+  >
+    <p
+      class="info__panel__title"
+    >
+      Title
+    </p>
+    <p
+      class="info__panel__description"
+    >
+      
+  Para obtener una salud óptima, resuelve las siguientes acciones.
+  Esto te ayudará a mejorar tu salud contable y que el dashboard
+  del trust sea representativo.
+
+    </p>
+  </div>
+</div>
+`;
