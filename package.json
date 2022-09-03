@@ -10,7 +10,8 @@
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build-snapshots": "jest --updateSnapshot"
+    "build-snapshots": "jest --updateSnapshot",
+    "chromatic": "npx chromatic --project-token=faf1c1e7274a"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -41,6 +42,7 @@
     "@vue/vue3-jest": "^27.0.0-alpha.1",
     "babel-jest": "^27.0.6",
     "babel-loader": "^8.2.5",
+    "chromatic": "^6.9.0",
     "cypress": "^9.7.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
@@ -55,5 +57,7 @@
     "ts-jest": "^27.0.4",
     "typescript": "~4.5.5",
     "vue-loader": "^16.8.3"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "vue-storybook-poc@0.1.0"
 }
