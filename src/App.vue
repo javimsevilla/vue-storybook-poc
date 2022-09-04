@@ -12,5 +12,9 @@ export default class App extends Vue {}
 </script>
 
 <style lang="scss">
-@import "./styles/fonts/components.scss";
+@import "./styles/general.scss";
+
+h1 {
+  @apply text-3xl font-bold underline;
+}
 </style>

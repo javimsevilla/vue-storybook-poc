@@ -22,6 +22,7 @@ module.exports = {
         require.resolve("vue-style-loader"),
         require.resolve("css-loader"),
         require.resolve("sass-loader"),
+        require.resolve("postcss-loader")
       ],
     });
 
