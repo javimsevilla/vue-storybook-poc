@@ -1,47 +1,40 @@
 .info__panel {
-  @apply rounded-b-lg shadow-md;
-
-  display: flex;
-  font-family: 'Manrope', sans-serif;
-  padding: 16px;
-  width: 500px;
+  @apply flex p-4 w-[500px] font-['Manrope', sans-serif];
 
   i {
-    font-size: 16px;
-    margin-right: 10px;
+    @apply mr-2.5 text-[16px];
   }
 
   &__description,
   &__title {
-    margin: 0;
+    @apply m-0;
   }
 
   &__title {
-    font-weight: bold;
-    margin-bottom: 4px;
+    @apply font-bold mb-1;
   }
 
   &--info {
-    background-color: #c4c4c4;
+    @apply bg-[#c4c4c4];
 
     i {
-      color: gray;
+      @apply text-[gray];
     }
   }
 
   &--warning {
-    background-color: rgba(255, 255, 113, 0.54);
+    @apply bg-[#ffff718a];
 
     i {
-      color: rgb(255, 217, 0);
+      @apply text-[rgb(255, 217, 0)];
     }
   }
 
   &--error {
-    background-color: #ffb7b7;
+    @apply bg-[#ffb7b7];
 
     i {
-      color: red;
+      @apply text-[red];
     }
   }
 }
